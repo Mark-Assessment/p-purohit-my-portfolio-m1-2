@@ -46,6 +46,8 @@ body {
     font-weight: 700;
 }
 
+/* ... (previous styles remain the same) ... */
+
 .glowing_button {
     display: inline-block;
     padding: 10px 20px;
@@ -56,13 +58,26 @@ body {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    box-shadow: 0 0 5px #007bff, 0 0 10px #007bff, 0 0 15px #007bff, 0 0 20px #007bff;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     margin-top: 20px;
 }
 
 .glowing_button:hover {
-    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff;
+    background-color: #0056b3;
+}
+
+/* Update the submit button style to match other buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* ... (rest of the styles remain the same) ... */
 }
 
 /* Banner Section */

@@ -1,0 +1,260 @@
+In given HTML and CSS page adjust images at Web Development, App Development, UI UX Design area fit to cards, add script, add bootstrap responsive grids, navigation bars, buttons, and forms, streamlining the design process, add social media responsive logos at footer area, make a static front-end web page to present useful information to users, present data in a way that helps users achieve their goals such as product/service of SOFTWARE DEVELOPMENT SERVICES | FULL STACK EXPERTISE TO HIRE that they interested in. Keep web page simple. Add relevant information in paragraph area. 
+
+1.Static front end : Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+
+2.Information Architecture: Incorporate a main navigation menu and structured layout (use Bootstrap to accomplish this).
+
+3.Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users. Include a 2D Skelton model explaining most essential elements of webpage. show 2D Skelton model how webpage look on mobile, tablet, and desktop for each page. Add any bugs issue and how it resolved, and quote any code, media file is used from external web page or source. add how web page is deployed from gitpod or gitpod. add how web page is tested. Document how HTML Validator, CSS Validator, Developer Tools Lighthouse is used.
+
+4.Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+
+5.Draw a 2D Skelton model of webpage.
+
+----------------index.html--------------
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOFTWARE DEVELOPMENT SERVICES | FULL STACK EXPERTISE TO HIRE
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero_section">
+      <div class="text_container">
+        <h2><span class="lg_text">Hello,</span> I am Param Purohit</h2>
+        <h1 class="lg_text">FULL STACK DEVELOPER</h1>
+      </div>
+    </section>
+    <section class="black_box">
+      <h2>Have a Poject in mind!<span> Let's talk!</span></h2>
+    </section>
+    <section class="work">
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="P1-IMAGES/UI UX.jpeg" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              quibusdam ex quaerat quasi nostrum tempore.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="P1-IMAGES/app.jpg" alt="app development" />
+          </div>
+          <div class="card_content">
+            <h3>App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              quibusdam ex quaerat quasi nostrum tempore.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="P1-IMAGES/UI UX.jpeg" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>UI UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              quibusdam ex quaerat quasi nostrum tempore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottom_section">
+      <div class="contact">
+        <h2>Contact us</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+        <p>opehkmq5@students.codeinstitute.net</p>
+      </div>
+      <div class="about">
+        <h2>About us</h2>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolor,
+          esse quasi doloremque temporibus quis.
+        </p>
+      </div>
+    </section>
+    <footer>Project By Param Purohoit</footer>
+  </body>
+</html>
+---------------------style.css------------------------
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero_section {
+  background-image: url(P1-IMAGES/web1.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_container {
+  color: lime;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-left: 16px;
+}
+.lg_text {
+  font-size: 72px;
+  font-weight: 400;
+}
+.black_box {
+  background-color: #000;
+  padding: 20px;
+}
+.black_box h2 {
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.black_box h2 span {
+  font-weight: 400;
+  font-size: 96px;
+}
+.work {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  max-width: 1100px;
+  margin: 50px auto;
+}
+.grid_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 320px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  transition: 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.2s ease-in-out;
+}
+.card_content {
+  padding: 20px;
+}
+.card_content h3 {
+  margin-bottom: 10px;
+}
+.bottom_section {
+  display: flex;
+}
+.contact {
+  background-color: #2a2b21;
+}
+.about {
+  background-color: #3f1503;
+}
+
+.contact,
+.about {
+  min-height: 300px;
+  padding: 32px;
+  color: white;
+}
+.about h2,
+.contact h2 {
+  font-size: 64px;
+  font-weight: 300;
+}
+.about p,
+.contact p {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000;
+  padding: 20px;
+  color: white;
+}
+@media (max-width: 786px) {
+  .hero_section {
+    min-height: 50vh;
+  }
+  .text_container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .lg_text {
+    font-size: 32px;
+  }
+  .black_box h2 {
+    font-size: 24px;
+  }
+  .black_box h2 span {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .bottom_section {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .about h2,
+  .contact h2 {
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

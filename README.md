@@ -202,7 +202,7 @@ Imagery is important. The large MS AI-created, background hero image is designed
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
 ### W3C Markup Validator
-Results [here](#w3c-markup-validator).
+Results [here](#https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/html_validation.png?raw=true).
 
 ### W3C CSS Validator
 Results [here](#w3c-css-validator).

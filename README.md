@@ -238,6 +238,7 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 - **Navigation Links**: Ensured all links work correctly.
 - **Responsive Design**: Tested on various devices and screen sizes.
 - **Form Functionality**: Tested contact form submission.
+![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/validation_form.png?raw=true)
 
 ### Solved Bugs
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.

@@ -243,6 +243,7 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 ### Solved Bugs
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.
 - **Footer Social Media Not Centered**: `justify-content: center;` applied.
+  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)
 
 ### Unit Testing
 - **JavaScript Functions**: Ensured all custom scripts work as expected.

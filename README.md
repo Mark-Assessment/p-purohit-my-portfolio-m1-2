@@ -108,6 +108,7 @@ Imagery is important. The large MS AI-created, background hero image is designed
 |       Footer          |
 |-----------------------|
 
+
 ### Tablet View
 |------------------------------------------------|
 |                    Navbar                      |

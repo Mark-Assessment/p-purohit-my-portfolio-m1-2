@@ -229,7 +229,10 @@ Results :
 - **Community Engagement**: Encourage interaction through social media channels and frequent updates about services or blog posts (if applicable).
 
 ### Lighthouse
-Used Chrome Developer Tools Lighthouse to test site performance, best practices, and accessibility. A PDF file is attached for every test with this document.
+Used Chrome Developer Tools Lighthouse to test site performance, best practices, and accessibility. 
+
+![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Lighthouse_testing.png?raw=true)
+
 
 ### Manual Testing
 - **Navigation Links**: Ensured all links work correctly.

@@ -254,6 +254,9 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 - **A/B Testing**: Experiment with different call-to-action placements, button colors, and hero section layouts to maximize engagement.
 - **Accessibility Testing**: Verify that the website meets accessibility standards (e.g., contrast ratios, alt texts, etc.).
 
+  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20page%20Speed%20P-1.png?raw=true)
+  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20Page%20Speed%20P-1.png?raw=true)
+
 ## File Overview
 
 ### index.html

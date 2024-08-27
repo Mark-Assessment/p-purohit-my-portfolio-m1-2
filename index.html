@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Character set for the page -->
     <meta charset="UTF-8" />
+    <!-- Viewport settings for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title displayed in the browser tab -->
     <title>SOFTWARE DEVELOPMENT SERVICES | FULL STACK EXPERTISE TO HIRE</title>
+    <!-- Bootstrap CSS for responsive design and styling -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Custom CSS for additional styling -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
     <script
       src="https://kit.fontawesome.com/ec5506309e.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
+        <!-- Branding or main link of the navbar -->
         <a class="navbar-brand" href="#services">Full Stack Developer</a>
+        <!-- Button for toggling the navbar on smaller screens -->
         <button
           class="navbar-toggler"
           type="button"
@@ -29,15 +38,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Collapsible content of the navbar -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <!-- Link to the Home section -->
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
+              <!-- Link to the Services section -->
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
+              <!-- Link to the Contact section -->
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -45,16 +58,21 @@
       </div>
     </nav>
 
+    <!-- Hero section -->
     <section class="hero_section" id="home">
       <div class="container text_container">
         <h2><span class="lg_text">Hello,</span> I am Param Purohit</h2>
         <h1 class="lg_text">FULL STACK DEVELOPER</h1>
+        <!-- Button linking to the Contact section -->
         <a href="#contact" class="glowing_button">Contact Us</a>
       </div>
     </section>
+
+    <!-- Services section -->
     <section id="services" class="banner">
       <div class="container text-center">
         <div class="row">
+          <!-- Service card for Front End Development -->
           <div class="col-md-4 mb-3">
             <a
               href="front-end.html"
@@ -67,6 +85,7 @@
               >
             </a>
           </div>
+          <!-- Service card for Back End Development -->
           <div class="col-md-4 mb-3">
             <a
               href="back-end.html"
@@ -79,6 +98,7 @@
               >
             </a>
           </div>
+          <!-- Service card for JS Framework -->
           <div class="col-md-4 mb-3">
             <a
               href="js-framework.html"
@@ -91,6 +111,7 @@
               >
             </a>
           </div>
+          <!-- Service card for UI/UX -->
           <div class="col-md-4 mb-3">
             <a
               href="ui-ux.html"
@@ -103,6 +124,7 @@
               >
             </a>
           </div>
+          <!-- Service card for Java -->
           <div class="col-md-4 mb-3">
             <a
               href="java.html"
@@ -115,6 +137,7 @@
               >
             </a>
           </div>
+          <!-- Service card for Python -->
           <div class="col-md-4 mb-3">
             <a
               href="python.html"
@@ -131,16 +154,20 @@
       </div>
     </section>
 
+    <!-- Call-to-action section -->
     <section class="black_box">
       <div class="container">
         <h2>Have a Project in mind? <span>Let's talk!</span></h2>
+        <!-- Button linking to the Contact section -->
         <a href="#contact" class="btn btn-primary mt-3">Contact Me</a>
       </div>
     </section>
 
+    <!-- Work showcase section -->
     <section id="services" class="work">
       <div class="container">
         <div class="row">
+          <!-- Card for Front End Development service -->
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <div class="card-img-container">
@@ -159,12 +186,14 @@
                   functional, ensuring an optimal user experience across all
                   devices.
                 </p>
+                <!-- Learn More button -->
                 <a href="#services" class="btn btn-primary mt-auto"
                   >Learn More</a
                 >
               </div>
             </div>
           </div>
+          <!-- Card for Back End Development service -->
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <div class="card-img-container">
@@ -182,12 +211,14 @@
                   Node.js, Python, and Java to build server-side logic, database
                   management, and API integrations.
                 </p>
+                <!-- Learn More button -->
                 <a href="#services" class="btn btn-primary mt-auto"
                   >Learn More</a
                 >
               </div>
             </div>
           </div>
+          <!-- Card for UI/UX Design service -->
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <div class="card-img-container">
@@ -205,6 +236,7 @@
                   element enhances user interaction and contributes to a
                   seamless user experience.
                 </p>
+                <!-- Learn More button -->
                 <a href="#services" class="btn btn-primary mt-auto"
                   >Learn More</a
                 >
@@ -215,6 +247,7 @@
       </div>
     </section>
 
+    <!-- Testimonials section with a carousel -->
     <section id="testimonials" class="testimonials">
       <div
         id="testimonialCarousel"
@@ -222,13 +255,10 @@
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
+          <!-- First testimonial item -->
           <div class="carousel-item active">
             <div class="testimonial-item">
-              <img
-                src="assets/ceo1.jpeg"
-                alt="CEO 1"
-                class="testimonial-img"
-              />
+              <img src="assets/ceo1.jpeg" alt="CEO 1" class="testimonial-img" />
               <p class="testimonial-text">
                 "The team provided excellent service and delivered a top-notch
                 product. Highly recommended!"
@@ -236,13 +266,10 @@
               <p class="testimonial-name">- Tim Willson, CEO of Alpha Corp</p>
             </div>
           </div>
+          <!-- Second testimonial item -->
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img
-                src="assets/ceo2.jpeg"
-                alt="CEO 2"
-                class="testimonial-img"
-              />
+              <img src="assets/ceo2.jpeg" alt="CEO 2" class="testimonial-img" />
               <p class="testimonial-text">
                 "Outstanding experience from start to finish. They understood
                 our needs and executed perfectly."
@@ -256,30 +283,41 @@
       </div>
     </section>
 
+    <!-- Contact section -->
     <section id="contact" class="bottom_section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 contact">
-            <h2>Contact Us</h2>
-            <p>
-              Ready to bring your project to life? Get in touch with us to
-              discuss your requirements and how we can help.
-            </p>
-            <ul class="contact-list">
-              <li><i class="fas fa-phone"></i> +1 234 567 890</li>
-              <li><i class="fas fa-envelope"></i> Param@example.com</li>
-            </ul>
-            <form>
+      <div class="content-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 contact">
+              <h2>Contact Us</h2>
+              <p>
+                Ready to bring your project to life? Get in touch with us to
+                discuss your requirements and how we can help.
+              </p>
+              <ul class="contact-list">
+                <!-- Contact information -->
+                <li><a href="tel:+1234567890">Phone: +1 234 567 890</a></li>
+                <li>
+                  <a href="mailto:email@example.com"
+                    >Email: email@example.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Contact form -->
+            <form action="landing-page.html" method="get">
               <div class="mb-3">
                 <input
                   type="email"
                   class="form-control"
                   placeholder="Your Email"
+                  required
                 />
                 <textarea
                   class="form-control"
                   rows="3"
                   placeholder="Your Message"
+                  required
                 ></textarea>
               </div>
               <button type="submit" class="btn btn-primary">
@@ -288,29 +326,44 @@
             </form>
           </div>
           <div class="col-md-6 about">
-            <h2>About Us</h2>
-            <p>
-              We are a team of passionate developers dedicated to delivering
-              high-quality software solutions. With expertise in full-stack
-              development, we bring your ideas to life.
-            </p>
-            <p>
-              Our services include Front End Development, Back End Development,
-              UI/UX Design, JS Framework, Java, Python and more tailored services to meet your
-              specific needs and goals.
-            </p>
+            <div class="content-wrapper">
+              <h2>How we make a difference</h2>
+              <p>
+                We are dedicated to delivering excellence in every product and
+                service we offer. Our mission is to not only meet but exceed our
+                clients' expectations through innovation, integrity, and a
+                relentless focus on quality. We believe in building lasting
+                relationships based on trust, transparency, and a commitment to
+                continuous improvement.
+              </p>
+              <p>
+                Driven by a passion for what we do, we embrace new ideas and
+                technologies to stay ahead in our industry. Our team is united
+                by a shared goal: to make a meaningful impact and provide
+                unparalleled value to our customers, ensuring mutual success and
+                growth.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Footer section -->
     <footer class="footer">
       <div class="footer-top">
         <div class="container">
           <div class="row gy-4">
+            <!-- About Us section in the footer -->
             <div class="col-lg-4 col-md-6">
               <h5 class="text-white mb-3">About Us</h5>
-              <p class="small text-white-50">We are passionate developers dedicated to creating innovative digital solutions. Our expertise spans across various technologies to deliver high-quality, tailored software.</p>
+              <p class="small text-white-50">
+                We are passionate developers dedicated to creating innovative
+                digital solutions. Our expertise spans across various
+                technologies to deliver high-quality, tailored software.
+              </p>
             </div>
+            <!-- Quick links section in the footer -->
             <div class="col-lg-2 col-md-6">
               <h5 class="text-white mb-3">Quick links</h5>
               <ul class="list-unstyled">
@@ -319,6 +372,7 @@
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
+            <!-- Services links section in the footer -->
             <div class="col-lg-3 col-md-6">
               <h5 class="text-white mb-3">Services</h5>
               <ul class="list-unstyled">
@@ -328,18 +382,44 @@
                 <li><a href="js-framework.html">JS Framework</a></li>
               </ul>
             </div>
+            <!-- Social media links section in the footer -->
             <div class="col-lg-3 col-md-6">
               <h5 class="text-white mb-3">Connect with Us</h5>
               <div class="social-icons">
-                <a href="https://www.facebook.com/?locale=en_GB" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://x.com/?lang=en" class="social-icon" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" class="social-icon" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a
+                  href="https://www.facebook.com/?locale=en_GB"
+                  class="social-icon"
+                  aria-label="Facebook"
+                  target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="social-icon"
+                  aria-label="Instagram"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://x.com/?lang=en"
+                  class="social-icon"
+                  aria-label="Twitter"
+                  target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/"
+                  class="social-icon"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Footer bottom section with copyright -->
       <div class="footer-bottom py-3">
         <div class="container text-center">
           <p class="mb-0">&copy; 2024 Param Purohit. All rights reserved.</p>
@@ -347,9 +427,9 @@
       </div>
     </footer>
 
-   
-
+    <!-- Bootstrap JS for interactive components -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom script for smooth scrolling and navbar toggler functionality -->
     <script>
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
@@ -358,14 +438,15 @@
           document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior: "smooth",
           });
-          if (document.querySelector('.navbar-toggler').getAttribute('aria-expanded') === 'true') {
-        document.querySelector('.navbar-toggler').click();
-      }
-    });
-  });
-      
-    
+          if (
+            document
+              .querySelector(".navbar-toggler")
+              .getAttribute("aria-expanded") === "true"
+          ) {
+            document.querySelector(".navbar-toggler").click();
+          }
+        });
+      });
     </script>
-  
   </body>
 </html>

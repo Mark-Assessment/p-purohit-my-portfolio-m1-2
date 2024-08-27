@@ -125,9 +125,12 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 2. As a visitor, I want to easily find contact information to get in touch with the developer.
 3. As a user, I want a responsive and visually appealing website experience.
    
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)   
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)   
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)   
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
+    
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)
+   
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
+   
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)   
 
 ## Imagery

@@ -134,9 +134,9 @@ Imagery is important. The large MS AI-created, background hero image is designed
 
 ## Wireframes
 Wireframes are included as part of the design documentation below : 
-[Here Link](https://app.diagrams.net/) --
+*[Here Link](https://app.diagrams.net/)*
 
-[Here Link](https://balsamiq.com/) --
+*[Here Link](https://balsamiq.com/)*
 
 
 ## 2D Skeleton Models

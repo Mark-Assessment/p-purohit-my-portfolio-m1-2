@@ -115,17 +115,7 @@ Usage: Use this for secondary text, such as subtitles or descriptions, providing
 
 Hex Code: #D1D5DB
 Color: Light Gray
-Usage: For borders, dividers, and subtle lines, this color will maintain the minimalist feel without being too bold.
-
-## Application Example 
-
-Navbar: Background #1E3A8A (Deep Blue), Links #F9FAFB (Light Gray) with hover #22D3EE (Cyan). 
-
-Headers: Text #1E3A8A (Deep Blue) on a #F9FAFB (Light Gray) background. 
-
-Buttons: Background #22D3EE (Cyan) with hover #1E3A8A (Deep Blue) and text #F9FAFB (Light Gray). 
-
-Footer: Background #111827 (Charcoal Black) with text #F9FAFB (Light Gray) and links #F59E0B (Amber) on hover. 
+Usage: For borders, dividers, and subtle lines, this color will maintain the minimalist feel without being too bold. 
 
 ## Typography
 The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.

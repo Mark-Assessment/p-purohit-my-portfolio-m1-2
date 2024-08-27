@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta charset for character encoding -->
+    <meta charset="UTF-8" />
+    <!-- Meta viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
+    <title>Python Development</title>
+    <!-- Link to Bootstrap CSS for styling -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS file for additional styles -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* General styling for body */
+      body {
+        font-family: Arial, sans-serif; /* Font family for the page */
+        line-height: 1.6; /* Line height for readability */
+        color: #333; /* Text color */
+        padding-top: 60px; /* Space for fixed navbar */
+      }
+      /* Styling for service header section */
+      .service-header {
+        background-color: #17a2b8; /* Background color */
+        color: white; /* Text color */
+        padding: 2rem 0; /* Padding for vertical spacing */
+        margin-bottom: 2rem; /* Margin below the header */
+      }
+      /* Styling for service content section */
+      .service-content {
+        padding: 2rem 0; /* Padding for vertical spacing */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <!-- Brand name and link -->
+        <a class="navbar-brand" href="index.html">Full Stack Developer</a>
+        <!-- Button for toggling navbar on small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible navbar content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <!-- Home link -->
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header section for the service -->
+    <header class="service-header">
+      <div class="container text-center">
+        <!-- Main heading -->
+        <h1>Python Development</h1>
+      </div>
+    </header>
+
+    <!-- Main content section -->
+    <main class="service-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- Paragraph describing Python development -->
+            <p>
+              Python is a high-level, interpreted programming language known for
+              its simplicity and readability. It's widely used in web
+              development, data science, artificial intelligence, and
+              automation. Python's versatility and extensive library ecosystem
+              make it a powerful tool for a wide range of applications.
+            </p>
+            <!-- Expanded content about Python Development Services -->
+            
+            <p>
+              **Web Development:** Using frameworks such as Django and Flask, we
+              build scalable and secure web applications. Our expertise in
+              Python enables us to create custom web solutions tailored to your
+              business needs, from e-commerce platforms to content management
+              systems.
+            </p>
+
+            <p>
+              **Data Science and Analytics:** Python's rich ecosystem of
+              libraries like Pandas, NumPy, and Matplotlib makes it a powerful
+              tool for data analysis and visualization. We provide data-driven
+              insights and build data pipelines to help you make informed
+              decisions based on real-time data.
+            </p>
+
+            <p>
+              **Artificial Intelligence and Machine Learning:** With libraries
+              such as TensorFlow and scikit-learn, we develop intelligent
+              systems that can learn and adapt. Whether it's for predictive
+              analytics, natural language processing, or computer vision, we
+              build AI solutions that enhance your business capabilities.
+            </p>
+
+            <p>
+              **Automation and Scripting:** Python excels at automating
+              repetitive tasks and integrating with other systems. We create
+              custom scripts and automation tools to streamline your operations,
+              improve efficiency, and reduce manual workload.
+            </p>
+
+            <p>
+              By choosing our Python development services, you benefit from a
+              team of experts dedicated to delivering high-quality solutions
+              that drive innovation and success. Contact us today to discuss how
+              we can help you achieve your goals with Python.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript files for functionality -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script>
+      // Smooth scrolling and navbar collapse functionality
+      document
+        .querySelectorAll('a[href^="#"], a[href$=".html"]')
+        .forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const href = this.getAttribute("href");
+            if (href.endsWith(".html")) {
+              window.location.href = href; // Navigate to the page
+            } else {
+              document.querySelector(href).scrollIntoView({
+                behavior: "smooth", // Smooth scrolling to the section
+              });
+            }
+
+            // Collapse the navbar after clicking a link on mobile view
+            const navbarToggler = document.querySelector(".navbar-toggler");
+            if (navbarToggler.getAttribute("aria-expanded") === "true") {
+              navbarToggler.click(); // Close the navbar
+            }
+          });
+        });
+    </script>
+  </body>
+</html>

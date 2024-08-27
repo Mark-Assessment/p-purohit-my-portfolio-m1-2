@@ -79,41 +79,45 @@ Created a color scheme for portfolio website involves choosing a palette that re
 Hex Code: #1E3A8A
 Color: Deep Blue
 Usage: This color can be used for headers, navigation bar, and other primary elements like buttons and links. It gives a professional and modern look.
-
+--
 ##2. Secondary Color
 Hex Code: #22D3EE
 Color: Cyan
 Usage: Ideal for highlighting important sections, secondary buttons, and icons. It pairs well with deep blue to create a dynamic contrast.
-
+--
 ##3. Background Color
 Hex Code: #F9FAFB
 Color: Light Gray
 Usage: Use this as the main background color to ensure content readability and a clean, minimalist appearance.
-
+--
 ##4. Accent Color
 Hex Code: #F59E0B
 Color: Amber
 Usage: Use this color for accents like hover states, call-to-action buttons, and other interactive elements to draw attention.
-
+==
 ##5. Text Color
 Hex Code: #111827
 Color: Charcoal Black
 Usage: Use this color for primary text. It ensures high readability against the light gray background.
-
+--
 ##6. Secondary Text Color
 Hex Code: #4B5563
 Color: Cool Gray
 Usage: Use this for secondary text, such as subtitles or descriptions, providing a softer contrast against the background.
-
+--
 ##7. Border/Divider Color
 Hex Code: #D1D5DB
 Color: Light Gray
 Usage: For borders, dividers, and subtle lines, this color will maintain the minimalist feel without being too bold.
-
+--
 Application Example:
+--
 ##Navbar: Background #1E3A8A (Deep Blue), Links #F9FAFB (Light Gray) with hover #22D3EE (Cyan).
+--
 ##Headers: Text #1E3A8A (Deep Blue) on a #F9FAFB (Light Gray) background.
+--
 ##Buttons: Background #22D3EE (Cyan) with hover #1E3A8A (Deep Blue) and text #F9FAFB (Light Gray).
+--
 ##Footer: Background #111827 (Charcoal Black) with text #F9FAFB (Light Gray) and links #F59E0B (Amber) on hover.
 
 ## Typography

@@ -291,11 +291,11 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/validation_form.png?raw=true)
 
 ### Solved Bugs  
-= I wanted to bring to your attention an ongoing issue related to my GitHub account that is affecting the visibility of my P-1 project. Despite having made 20 commits (please find the enclosed screenshot), the page is still not accessible to tutors, mentors, or yourself. This is the same issue we encountered when I initially submitted the project.  
+I wanted to bring to your attention an ongoing issue related to my GitHub account that is affecting the visibility of my P-1 project. Despite having made 20 commits (please find the enclosed screenshot), the page is still not accessible to tutors, mentors, or yourself. This is the same issue we encountered when I initially submitted the project.  
 
 During a recent tutoring session with Sara, we discussed this problem, and she suggested that I work from a new GitHub profile. Consequently, I transitioned my work from my previous profile (param155) to a new one (Purohit1999). Unfortunately, this means that the commits made under my old profile are not reflected on my new one. Additionally, I primarily use VS Code for my development work due to the slow performance of Gitpod, which significantly impacts my efficiency.  
 
-It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.  
+It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)  
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.
 - **Footer Social Media Not Centered**: `justify-content: center;` applied.
   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)
@@ -360,6 +360,22 @@ Forking the GitHub Repository allows you to make a copy of the original reposito
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
+
+## GitPod and GitHub Deployment Issues Resolved  
+Over the past three days, I have been diligently working on my first project, which is now complete and functioning perfectly in Visual Studio. However, when attempting to share my project with the online tutors for review, they are unable to access my GitHub profile. This issue is severely hampering my progress as I am unable to receive the necessary feedback and move forward to the JavaScript lessons.
+
+Despite multiple attempts to resolve this issue, including extensive troubleshooting on SLACK and seeking help from the online tutors, the problem remains unresolved. I am now reaching out to you as my last resort, hoping for a swift resolution.
+
+The main issues I am encountering are as follows:
+
+*GitHub Profile Visibility:* My online tutors are unable to view my GitHub profile and the project repository, which is essential for them to review my work.
+
+*GitPod Accessibility:* There seem to be issues with GitPod that are preventing my project from being accessed and reviewed online.
+
+Given that I have already invested a considerable amount of time and effort into resolving these issues without success, I kindly request your immediate assistance in addressing and resolving these problems. It is crucial for me to submit my project promptly and continue with the coursework as scheduled.
+
+Please let me know if you require any additional information or access details to diagnose and fix the issues. Your prompt attention to this matter would be greatly appreciated.
+
 
 ## Credit
 - The full-screen hero image code came from a StackOverflow post.

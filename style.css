@@ -1,14 +1,16 @@
+/* Import Roboto font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* General body styles */
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.6;
 }
 
-/* Hero Section */
+/* Styles for the hero section */
 .hero_section {
     background-image: url(assets/web2.jpeg);
-    min-height: 70vh; /* Adjust for larger screens */
+    min-height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,6 +20,7 @@ body {
     padding: 10% 0;
 }
 
+/* Dark overlay for the hero section */
 .hero_section::before {
     content: "";
     position: absolute;
@@ -29,6 +32,7 @@ body {
     z-index: 1;
 }
 
+/* Container for text in the hero section */
 .text_container {
     position: relative;
     z-index: 2;
@@ -36,18 +40,19 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
+/* Styling for hero section h2 */
 .hero_section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
+/* Styling for hero section h1 */
 .hero_section h1 {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-/* ... (previous styles remain the same) ... */
-
+/* Styles for the glowing button */
 .glowing_button {
     display: inline-block;
     padding: 10px 20px;
@@ -62,65 +67,44 @@ body {
     margin-top: 20px;
 }
 
+/* Hover effect for the glowing button */
 .glowing_button:hover {
     background-color: #0056b3;
 }
 
-/* Update the submit button style to match other buttons */
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-}
-
-/* ... (rest of the styles remain the same) ... */
-}
-
-/* Banner Section */
+/* Styles for the banner section */
 .banner {
-    background-color: #333;
+    background-color: #333 !important;
     color: white;
     padding: 2rem 0;
-  }
-  
-  .banner .btn-outline-light {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    white-space: normal;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-  }
-/* Add these styles to your existing CSS */
-
-.banner .btn-outline-light {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-    white-space: normal;
 }
 
+/* Styles for outline light buttons in the banner */
+.banner .btn-outline-light {
+    width: 100%;
+    padding: 1rem;
+    white-space: normal;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for buttons in the banner */
 .banner .btn-outline-light:hover {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-5px);
 }
 
+/* Styling for small text within banner buttons */
 .banner .btn-outline-light .small {
     font-size: 0.8rem;
     opacity: 0.8;
 }
 
+/* Responsive styles for small screens (mobile) */
 @media (max-width: 767px) {
     .banner .btn-outline-light {
         font-size: 0.9rem;
@@ -132,6 +116,7 @@ body {
     }
 }
 
+/* Responsive styles for medium screens (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
     .banner .btn-outline-light {
         font-size: 1rem;
@@ -143,19 +128,15 @@ body {
     }
 }
 
+/* Responsive styles for large screens (desktops) */
 @media (min-width: 992px) {
     .banner .btn-outline-light {
         font-size: 1.1rem;
         padding: 1.25rem;
     }
 }
-    
-    .banner .btn-outline-light .small {
-      font-size: 0.75rem;
-    }
-  
 
-/* Black Box Section */
+/* Styles for the black box section */
 .black_box {
     background-color: #000;
     color: white;
@@ -163,73 +144,78 @@ body {
     text-align: center;
 }
 
+/* Styling for headings in the black box section */
 .black_box h2 {
     font-size: 1.8rem;
 }
 
+/* Styling for span elements within black box headings */
 .black_box h2 span {
     font-size: 2.2rem;
 }
 
-.work {
-    padding: 2rem 0;
-}
-
+/* Styles for cards with transition effects */
 .card {
     transition: 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.card {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for images within cards */
 .card-img-container {
-    height: 200px; /* Set a fixed height for all image containers */
+    height: 200px;
     overflow: hidden;
 }
 
+/* Styles for images in cards */
 .card-img-top {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This will ensure the image covers the container without distortion */
+    object-fit: cover;
 }
 
+/* Styles for the card body */
 .card-body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
+/* Styles for text within the card body */
 .card-text {
     flex-grow: 1;
 }
 
-/* Testimonials Section */
+/* Styles for the testimonials section */
 .testimonials {
     padding: 2rem 0;
     background-color: #f8f9fa;
     text-align: center;
 }
 
+/* Styles for carousel inner elements */
 .carousel-inner {
     position: relative;
 }
 
+/* Styles for individual carousel items */
 .carousel-item {
     transition: transform 0.6s ease;
 }
 
+/* Styles for each testimonial item */
 .testimonial-item {
     padding: 1rem;
 }
 
+/* Styling for testimonial images */
 .testimonial-img {
     width: 80px;
     height: 80px;
@@ -237,63 +223,85 @@ body {
     margin-bottom: 15px;
 }
 
+/* Styling for testimonial names */
 .testimonial-name {
     font-weight: bold;
 }
 
-/* Bottom Section */
-.bottom_section {
-    padding: 2rem 0;
+/* Styles for the footer */
+.footer {
+    background: linear-gradient(to right, #333333, #dd1818);
+    color: #fff;
+    padding-top: 50px;
 }
 
-.contact, .about {
-    padding: 2rem;
+/* Styles for the top part of the footer */
+.footer-top {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.contact {
-    background-color: #2a2b21;
-    color: white;
-}
-
-.contact-list {
-    list-style: none;
-    padding: 0;
-}
-
-.contact-list li {
-    margin-bottom: 10px;
+/* Styles for footer headings */
+.footer h5 {
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.contact-list li i {
-    margin-right: 10px;
+/* Styles for footer lists */
+.footer ul {
+    padding-left: 0;
 }
 
-.about {
-    background-color: #3f1503;
-    color: white;
+/* Styles for list items in the footer */
+.footer ul li {
+    margin-bottom: 10px;
 }
 
-footer a {
-    transition: 0.3s ease;
+/* Styles for links in the footer */
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-footer a:hover {
-    opacity: 0.7;
+/* Hover effect for footer links */
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
-footer {
-    text-align: center;
+/* Styles for social media icons in the footer */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 1rem;
 }
 
-.social-icons a {
-    display: inline-block;
-    transition: transform 0.3s ease;
-    margin-right: 10px; /* Add margin to create gap between icons */
+/* Styles for individual social media icons */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
 }
 
-.social-icons a:last-child {
-    margin-right: 0; /* Remove margin from the last icon */
+/* Hover effect for social media icons */
+.social-icon:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
 }
 
 /* Responsive adjustments */
@@ -310,9 +318,8 @@ footer {
         font-size: 2rem;
     }
 
-    .social-icons {
+    .footer .container {
         text-align: center;
-        margin-top: 1rem;
     }
 }
 
@@ -341,16 +348,12 @@ footer {
         padding: 4rem 0;
     }
 
-    body {
-        font-size: 18px;
-    }
-
-    footer {
-        text-align: left;
+    .footer .container {
+        text-align: center;
     }
 
     .social-icons {
-        text-align: right;
+        justify-content: center;
     }
 }
 
@@ -375,211 +378,175 @@ footer {
         font-size: 3.5rem;
     }
 
-    .navbar-nav {
-        text-align: left;
-    }
-
-    footer {
-        text-align: left;
+    .footer .container {
+        text-align: center;
     }
 
     .social-icons {
-        text-align: right;
+        justify-content: center;
     }
 }
-.footer {
-    background: linear-gradient(to right, #333333, #dd1818);
-    color: #fff;
-    padding-top: 50px;
+
+/* About Us and Contact Us Sections */
+.section-dark-red {
+  background-color: #8B0000; /* Dark red background */
+  color: #ffffff; /* White text color for contrast */
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-dark-red h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-dark-red p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.section-dark-red .btn-custom {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #333333; /* Darker button background */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.section-dark-red .btn-custom:hover {
+  background-color: #555555; /* Slightly lighter on hover */
+}
+
+.section-dark-red::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(139,0,0,0) 70%);
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.section-dark-red:hover::before {
+  top: -70%;
+  left: -70%;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(139,0,0,0) 80%);
+}
+
+/* Section-specific media queries */
+@media (max-width: 767px) {
+  .section-dark-red {
+      padding: 2rem 1rem;
   }
-  
-  .footer-top {
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .footer h5 {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  
-  .footer ul {
-    padding-left: 0;
-  }
-  
-  .footer ul li {
-    margin-bottom: 10px;
-  }
-  
-  .footer a {
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer a:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .social-icon:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  .footer-bottom {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  
-  .footer-bottom p {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.9rem;
-  }
-  
-  @media (max-width: 767px) {
-    .footer-top .col-md-6 {
-      margin-bottom: 30px;
-    }
-  }
-  /* Social Icons Centering */
-.social-icons {
-    display: flex;
-    justify-content: center; /* Center the icons horizontally */
-    gap: 15px; /* Add space between the icons */
-    margin-top: 1rem; /* Add margin to the top */
-  }
-  
-  /* Responsive adjustments for footer */
-  @media (max-width: 767px) {
-    .hero_section {
-      min-height: 50vh;
-    }
-  
-    .hero_section h2 {
-      font-size: 1.5rem;
-    }
-  
-    .hero_section h1 {
+
+  .section-dark-red h2 {
       font-size: 2rem;
-    }
-  
-    .social-icons {
-      text-align: center;
-      margin-top: 1rem;
-    }
-  
-    .footer .container {
-      text-align: center; /* Ensure text in the footer is centered on mobile */
-    }
+  }
+
+  .section-dark-red p {
+      font-size: 1rem;
+  }
+
+  .section-dark-red .btn-custom {
+      font-size: 1rem;
+  }
+}
+
+/* General styles for the #contact.bottom_section */
+#contact.bottom_section {
+  display: flex; /* Enable flexbox for side-by-side layout */
+  justify-content: space-between; /* Space out the two sections */
+  align-items: flex-start; /* Align the sections at the top */
+  width: 100%; /* Ensure the section fits within its container */
+  max-width: 100%; /* Prevent overflow */
+  overflow: hidden; /* Hide any overflowing content */
+  box-sizing: border-box; /* Include padding and border in width/height */
+  background: linear-gradient(to right, #000000, #8B0000); /* Black to dark red gradient */
+  color: #ffffff; /* White text for contrast */
+  padding: 40px 20px; /* Ample padding for spacing */
+  border-top: 5px solid #333; /* Optional: Add a border to separate from the previous section */
+}
+
+/* Content wrapper for flex items */
+#contact.bottom_section .content-wrapper {
+  flex: 1; /* Each section takes up equal space */
+  margin-right: 20px; /* Space between the two sections */
+}
+
+#contact.bottom_section .content-wrapper:last-child {
+  margin-right: 0; /* Remove the margin on the last item */
+}
+
+/* Align content to the left */
+#contact.bottom_section h2 {
+  color: #f8f8f8; /* Slightly lighter color for headings */
+  font-size: 2.5em; /* Larger, more impactful headings */
+  margin-bottom: 20px;
+}
+
+/* Styling for paragraphs */
+#contact.bottom_section p {
+  color: #dcdcdc; /* Slightly lighter text color for readability */
+  font-size: 1.2em; /* Increase font size for readability */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Remove bullets from lists and style list items */
+#contact.bottom_section ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Remove left padding */
+}
+
+#contact.bottom_section ul li {
+  margin-bottom: 10px; /* Add some space between items */
+  font-size: 1.2em; /* Increase font size for readability */
+  color: #dcdcdc; /* Slightly lighter text color */
+}
+
+/* Styling for links (phone number, email, etc.) */
+#contact.bottom_section a {
+  color: #ffffff; /* White text */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+#contact.bottom_section a:hover {
+  color: #ff5733; /* Change color on hover */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  #contact.bottom_section {
+      flex-direction: column; /* Stack sections on smaller screens */
   }
   
-  @media (min-width: 768px) {
-    .hero_section {
-      min-height: 70vh;
-    }
-  
-    .hero_section h2 {
-      font-size: 2.5rem;
-    }
-  
-    .hero_section h1 {
-      font-size: 3rem;
-    }
-  
-    .black_box h2 {
-      font-size: 2.5rem;
-    }
-  
-    .black_box h2 span {
-      font-size: 3rem;
-    }
-  
-    section {
-      padding: 4rem 0;
-    }
-  
-    body {
-      font-size: 18px;
-    }
-  
-    .footer .container {
-      text-align: center; /* Ensure text in the footer is centered on tablets */
-    }
-  
-    .social-icons {
-      justify-content: center; /* Center the icons horizontally */
-    }
+  #contact.bottom_section .content-wrapper {
+      margin-right: 0; /* Remove right margin for stacked items */
+      margin-bottom: 20px; /* Add margin between stacked sections */
   }
-  
-  @media (min-width: 992px) {
-    .hero_section {
-      min-height: 100vh;
-    }
-  
-    .hero_section h2 {
-      font-size: 3rem;
-    }
-  
-    .hero_section h1 {
-      font-size: 4rem;
-    }
-  
-    .black_box h2 {
-      font-size: 3rem;
-    }
-  
-    .black_box h2 span {
-      font-size: 3.5rem;
-    }
-  
-    .navbar-nav {
-      text-align: left;
-    }
-  
-    .footer .container {
-      text-align: center; /* Ensure text in the footer is centered on desktops */
-    }
-  
-    .social-icons {
-      justify-content: center; /* Center the icons horizontally */
-    }
+
+  #contact.bottom_section .content-wrapper:last-child {
+      margin-bottom: 0; /* Remove the margin on the last item */
   }
-  @media (max-width: 991px) {
-    .navbar-nav {
-      background-color: rgba(0, 0, 0, 0.9);
-      padding: 10px;
-    }
-  
-    .navbar-nav .nav-item {
-      margin: 5px 0;
-    }
-  
-    .navbar-nav .nav-link {
-      padding: 10px 15px;
-      border-radius: 5px;
-    }
-  
-    .navbar-nav .nav-link:hover,
-    .navbar-nav .nav-link:focus {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-  }
-  .navbar-collapse {
-    z-index: 1030; /* Ensure the navbar is above other elements */
-  }
-  
+}

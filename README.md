@@ -81,37 +81,37 @@ Hex Code: #1E3A8A
 Color: Deep Blue
 Usage: This color can be used for headers, navigation bar, and other primary elements like buttons and links. It gives a professional and modern look.
 
-### - Secondary Color 
+- ### Secondary Color 
 
 Hex Code: #22D3EE
 Color: Cyan
 Usage: Ideal for highlighting important sections, secondary buttons, and icons. It pairs well with deep blue to create a dynamic contrast.
 
-### - Background Color 
+- ### Background Color 
 
 Hex Code: #F9FAFB
 Color: Light Gray
 Usage: Use this as the main background color to ensure content readability and a clean, minimalist appearance.
 
-### - Accent Color 
+- ### Accent Color 
 
 Hex Code: #F59E0B
 Color: Amber
 Usage: Use this color for accents like hover states, call-to-action buttons, and other interactive elements to draw attention.
 
-### - Text Color 
+- ### Text Color 
 
 Hex Code: #111827
 Color: Charcoal Black
 Usage: Use this color for primary text. It ensures high readability against the light gray background.
 
-### - Secondary Text Color 
+- ### Secondary Text Color 
 
 Hex Code: #4B5563
 Color: Cool Gray
 Usage: Use this for secondary text, such as subtitles or descriptions, providing a softer contrast against the background.
 
-### - Border/Divider Color 
+- ### Border/Divider Color 
 
 Hex Code: #D1D5DB
 Color: Light Gray

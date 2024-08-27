@@ -134,7 +134,8 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)   
 
 ## Imagery
-Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [Here link](https://www.bing.com/images/create/)
+Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
+**Free images created from AI tool** : [Here link](https://www.bing.com/images/create/)
 
 ## Wireframes
 Wireframes are included as part of the design documentation below :  
@@ -256,12 +257,12 @@ Wireframes are included as part of the design documentation below :
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
 ### W3C Markup Validator :
-Results : 
+Results : No Error
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/html_validation.png?raw=true)
 
 
-### W3C CSS Validator :    ![Image Alt]()
-Results :
+### W3C CSS Validator :    
+Results : No Error
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/css_validation.png?raw=true)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -292,6 +293,7 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 - **Navigation Links**: Ensured all links work correctly.
 - **Responsive Design**: Tested on various devices and screen sizes.
 - **Form Functionality**: Tested contact form submission.
+  
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/validation_form.png?raw=true)
 
 ### Solved Bugs  
@@ -300,9 +302,12 @@ I wanted to bring to your attention an ongoing issue related to my GitHub accoun
 During a recent tutoring session with Sara, we discussed this problem, and she suggested that I work from a new GitHub profile. Consequently, I transitioned my work from my previous profile (param155) to a new one (Purohit1999). Unfortunately, this means that the commits made under my old profile are not reflected on my new one. Additionally, I primarily use VS Code for my development work due to the slow performance of Gitpod, which significantly impacts my efficiency.  
 
 It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.   
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)      
+
+![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)  
+
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.
-- **Footer Social Media Not Centered**: `justify-content: center;` applied.    
+- **Footer Social Media Not Centered**: `justify-content: center;` applied.
+  
   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)
 
 ### Unit Testing
@@ -315,6 +320,7 @@ It appears that there might be a configuration issue with my student account on 
 - **Accessibility Testing**: Verify that the website meets accessibility standards (e.g., contrast ratios, alt texts, etc.).
 
   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20page%20Speed%20P-1.png?raw=true)
+  
   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20Page%20Speed%20P-1.png?raw=true)
 
 ## File Overview
@@ -390,15 +396,20 @@ Please let me know if you require any additional information or access details t
 ### Media
 - All Images were created by the developer using Bing's free AI tool.
 - Free Images source:
+  
   - [Bing Image](https://www.bing.com/images/create/coding/1-669fa5b21f484aef93025d5b052fbaf6?id=zKwrjxoByUGzIp7O4qqoSw%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.ZHZnpIySJoQ.yBTGIOI4&FORM=GCRIDP&ajaxhist=0&ajaxserp=0)
 
 ### Free Fonts source
+
 - [Roboto](https://fonts.google.com/specimen/Roboto)
+  
 - [Font Awesome](https://fontawesome.com/kits)
 
 ### Code
 - **Bootstrap** components and **Font Awesome** icons.
+  
   - [Get Bootstrap](https://getbootstrap.com/)
+    
   - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
 
 ## Content

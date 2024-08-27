@@ -124,13 +124,13 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 1. As a potential client, I want to see examples of past work to evaluate the developer's skills.
 2. As a visitor, I want to easily find contact information to get in touch with the developer.
 3. As a user, I want a responsive and visually appealing website experience.
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)  
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)  
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)  
+   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)  
 
 ## Imagery
-Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [link](https://www.bing.com/images/create/)
+Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [Here link](https://www.bing.com/images/create/)
 
 ## Wireframes
 Wireframes are included as part of the design documentation below :  
@@ -263,10 +263,10 @@ Results :
 ### Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitors Goals
-- **Introduction**: Provide a clear and concise introduction to the services offered.
-- **Engagement**: Capture attention through visually appealing design and clear messaging.
-- **Navigation**: Ensure easy navigation to explore services, about section, and contact information.
-- **Call to Action**: Encourage the first-time visitor to reach out via the contact form or explore more services.
+- **Introduction**: Provide a clear and concise introduction to the services offered.  
+- **Engagement**: Capture attention through visually appealing design and clear messaging.  
+- **Navigation**: Ensure easy navigation to explore services, about section, and contact information.  
+- **Call to Action**: Encourage the first-time visitor to reach out via the contact form or explore more services.  
 
 ### Returning Visitor Goals
 - **Re-engagement**: Provide quick access to detailed service pages such as Front End Development, Back End Development, etc.

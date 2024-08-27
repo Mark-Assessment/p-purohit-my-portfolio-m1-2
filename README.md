@@ -75,43 +75,43 @@ The Full Stack Developer Portfolio is a responsive website that highlights the d
 ## Colour Scheme
 Created a color scheme for portfolio website involves choosing a palette that reflects your personal style while ensuring readability and aesthetic appeal.The three main colors used are Code Institute Blue, red, and white.
 
-## - Primary Color 
+### - Primary Color 
 
 Hex Code: #1E3A8A
 Color: Deep Blue
 Usage: This color can be used for headers, navigation bar, and other primary elements like buttons and links. It gives a professional and modern look.
 
-## - Secondary Color 
+### - Secondary Color 
 
 Hex Code: #22D3EE
 Color: Cyan
 Usage: Ideal for highlighting important sections, secondary buttons, and icons. It pairs well with deep blue to create a dynamic contrast.
 
-## - Background Color 
+### - Background Color 
 
 Hex Code: #F9FAFB
 Color: Light Gray
 Usage: Use this as the main background color to ensure content readability and a clean, minimalist appearance.
 
-## - Accent Color 
+### - Accent Color 
 
 Hex Code: #F59E0B
 Color: Amber
 Usage: Use this color for accents like hover states, call-to-action buttons, and other interactive elements to draw attention.
 
-## - Text Color 
+### - Text Color 
 
 Hex Code: #111827
 Color: Charcoal Black
 Usage: Use this color for primary text. It ensures high readability against the light gray background.
 
-## - Secondary Text Color 
+### - Secondary Text Color 
 
 Hex Code: #4B5563
 Color: Cool Gray
 Usage: Use this for secondary text, such as subtitles or descriptions, providing a softer contrast against the background.
 
-## - Border/Divider Color 
+### - Border/Divider Color 
 
 Hex Code: #D1D5DB
 Color: Light Gray
@@ -362,10 +362,8 @@ Forking the GitHub Repository allows you to make a copy of the original reposito
 - **MDN Web Docs**: For Pattern Validation code. Code was modified to fit a UK phone number layout.
 
 ### Media
-- Images from Unsplash and Shopify.
+- All Images were created by the developer using Bing's free AI tool.
 - Free Images source:
-  - [Unsplash](https://unsplash.com/photos/two-black-computer-monitors-on-black-table-p-xSl33Wxyc)
-  - [Shopify](https://www.shopify.com/stock-photos/coding)
   - [Bing Image](https://www.bing.com/images/create/coding/1-669fa5b21f484aef93025d5b052fbaf6?id=zKwrjxoByUGzIp7O4qqoSw%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.ZHZnpIySJoQ.yBTGIOI4&FORM=GCRIDP&ajaxhist=0&ajaxserp=0)
 
 ### Free Fonts source
@@ -380,8 +378,6 @@ Forking the GitHub Repository allows you to make a copy of the original reposito
 ## Content
 All content was written by the developer. Psychological properties of colors text in the README.md was found on the Colour Affects website.
 
-## Media
-All Images were created by the developer using Bing's free AI tool.
 
 ## Acknowledgements
 - My Mentor for continuous helpful feedback.

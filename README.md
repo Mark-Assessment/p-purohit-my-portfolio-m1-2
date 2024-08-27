@@ -75,7 +75,7 @@ The Full Stack Developer Portfolio is a responsive website that highlights the d
 ## Colour Scheme
 Created a color scheme for portfolio website involves choosing a palette that reflects your personal style while ensuring readability and aesthetic appeal.The three main colors used are Code Institute Blue, red, and white.
 
-### - Primary Color 
+- ### Primary Color 
 
 Hex Code: #1E3A8A
 Color: Deep Blue

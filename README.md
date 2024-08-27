@@ -88,7 +88,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)
 
 ## Imagery
-Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [link](https://www.bing.com/images/create/)
 
 ## Wireframes
 Wireframes are included as part of the design documentation below :

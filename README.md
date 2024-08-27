@@ -389,7 +389,7 @@ Please let me know if you require any additional information or access details t
 
 
 ## Credit
-- The full-screen hero image code came from a StackOverflow post.
+- The full-screen hero image code came from Bing free images creator using AI tool.
 - **Bootstrap 4**: Used throughout the project to make the site responsive using the Bootstrap Grid System.
 - **MDN Web Docs**: For Pattern Validation code. Code was modified to fit a UK phone number layout.
 

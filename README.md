@@ -121,9 +121,10 @@ Usage: For borders, dividers, and subtle lines, this color will maintain the min
 The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
 
 ## User Stories
-1. As a potential client, I want to see examples of past work to evaluate the developer's skills.
+1. As a potential client, I want to see testimonies for examples of past work to evaluate the developer's skills.
 2. As a visitor, I want to easily find contact information to get in touch with the developer.
-3. As a user, I want a responsive and visually appealing website experience.  
+3. As a user, I want a responsive and visually appealing website experience.
+   
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)   
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)   
    ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)   

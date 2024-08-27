@@ -133,7 +133,9 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [link](https://www.bing.com/images/create/)
 
 ## Wireframes
-Wireframes are included as part of the design documentation below : [Here Link](https://app.diagrams.net/)
+Wireframes are included as part of the design documentation below : --
+[Here Link](https://app.diagrams.net/) --
+
 [Here Link](https://balsamiq.com/)
 
 ## 2D Skeleton Models

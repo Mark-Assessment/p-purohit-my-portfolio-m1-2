@@ -120,18 +120,53 @@ Usage: For borders, dividers, and subtle lines, this color will maintain the min
 ## Typography
 The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
 
-## User Stories
-1. As a potential client, I want to see testimonies for examples of past work to evaluate the developer's skills.
-2. As a visitor, I want to easily find contact information to get in touch with the developer.
-3. As a user, I want a responsive and visually appealing website experience.
-   
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
-    
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form1.png?raw=true)
-   
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
-   
-   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)   
+## 📝 User Stories
+
+### 1. As a potential client, I want to see testimonials for examples of past work.
+- **Description**: The "Testimonials" section is designed to prominently display client feedback and endorsements. This helps potential clients evaluate the developer's skills and reliability.  
+
+  - The testimonials are easily accessible from the homepage.
+  - Each testimonial includes a client name and their feedback.
+  - The section is visually appealing with a clean design.
+- **Screenshot:**
+![Testimonials Section](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
+
+### 2. As a visitor, I want to easily find contact information to get in touch with the developer.
+- **Description**: The "Contact Us" section includes a form, email address, and phone number. This ensures visitors can reach out easily.
+- **Acceptance Criteria**:
+  - Contact form fields are clearly labeled and functional.
+  - Contact information is prominently displayed.
+  - The form includes validation to ensure accurate submissions.
+- **Screenshot:**
+![Contact Form](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
+
+### 3. As a user, I want a responsive and visually appealing website experience.
+- **Description**: The website is designed to be responsive, ensuring a smooth experience across all devices (mobile, tablet, and desktop).
+- **Acceptance Criteria**:
+  - The layout adjusts to different screen sizes.
+  - All interactive elements remain accessible and functional.
+  - Visual appeal is maintained across all devices.
+- **Screenshot:**
+![Responsive Design](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)
+
+### 4. As a user, I want to be able to return to the home page after completing a form submission.
+- **Description**: After submitting the contact form, users are redirected to the homepage, which confirms the successful submission.
+- **Acceptance Criteria**:
+  - Users receive a confirmation message.
+  - Users are redirected to the homepage.
+  - The homepage displays a success message or confirmation of the submission.
+- **Screenshot:**
+![Confirmation Message](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/confirmation_message.png?raw=true)
+
+### 5. As a user, I want the webpage to be responsive and accessible on any device.
+- **Description**: The website maintains functionality and readability across various devices, including mobile phones, tablets, and desktops.
+- **Acceptance Criteria**:
+  - The design adapts to different screen sizes.
+  - Touch and interaction elements are usable on mobile devices.
+  - The layout remains consistent and user-friendly.
+- **Screenshot:**
+![Responsive Layout](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/responsive_layout.png?raw=true)
+  
 
 ## Imagery
 Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 

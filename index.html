@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Character set for the page -->
     <meta charset="UTF-8" />
-    <!-- Viewport settings for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Page title displayed in the browser tab -->
     <title>SOFTWARE DEVELOPMENT SERVICES | FULL STACK EXPERTISE TO HIRE</title>
-    <!-- Bootstrap CSS for responsive design and styling -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <!-- Custom CSS for additional styling -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <script
       src="https://kit.fontawesome.com/ec5506309e.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <!-- Branding or main link of the navbar -->
-        <a class="navbar-brand" href="#services">Full Stack Developer</a>
-        <!-- Button for toggling the navbar on smaller screens -->
+        <a class="navbar-brand" href="index.html">Full Stack Developer</a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -38,19 +31,15 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Collapsible content of the navbar -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <!-- Link to the Home section -->
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <!-- Link to the Services section -->
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <!-- Link to the Contact section -->
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -59,11 +48,20 @@
     </nav>
 
     <!-- Hero section -->
-    <section class="hero_section" id="home">
+    <section
+      class="hero_section"
+      id="home"
+      style="
+        background-image: url('assets/images/web2.jpeg');
+        min-height: 70vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
       <div class="container text_container">
         <h2><span class="lg_text">Hello,</span> I am Param Purohit</h2>
         <h1 class="lg_text">FULL STACK DEVELOPER</h1>
-        <!-- Button linking to the Contact section -->
         <a href="#contact" class="glowing_button">Contact Us</a>
       </div>
     </section>
@@ -74,11 +72,7 @@
         <div class="row">
           <!-- Service card for Front End Development -->
           <div class="col-md-4 mb-3">
-            <a
-              href="front-end.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="front-end.html" class="btn btn-outline-light btn-block">
               Front End Development
               <span class="d-block mt-2 small"
                 >Create stunning user interfaces</span
@@ -87,11 +81,7 @@
           </div>
           <!-- Service card for Back End Development -->
           <div class="col-md-4 mb-3">
-            <a
-              href="back-end.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="back-end.html" class="btn btn-outline-light btn-block">
               Back End Development
               <span class="d-block mt-2 small"
                 >Build robust server-side solutions</span
@@ -100,11 +90,7 @@
           </div>
           <!-- Service card for JS Framework -->
           <div class="col-md-4 mb-3">
-            <a
-              href="js-framework.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="js-framework.html" class="btn btn-outline-light btn-block">
               JS Framework
               <span class="d-block mt-2 small"
                 >Develop dynamic web applications</span
@@ -113,11 +99,7 @@
           </div>
           <!-- Service card for UI/UX -->
           <div class="col-md-4 mb-3">
-            <a
-              href="ui-ux.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="ui-ux.html" class="btn btn-outline-light btn-block">
               UI/UX
               <span class="d-block mt-2 small"
                 >Design intuitive user experiences</span
@@ -126,11 +108,7 @@
           </div>
           <!-- Service card for Java -->
           <div class="col-md-4 mb-3">
-            <a
-              href="java.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="java.html" class="btn btn-outline-light btn-block">
               Java
               <span class="d-block mt-2 small"
                 >Create powerful enterprise applications</span
@@ -139,11 +117,7 @@
           </div>
           <!-- Service card for Python -->
           <div class="col-md-4 mb-3">
-            <a
-              href="python.html"
-              target="_blank"
-              class="btn btn-outline-light btn-block"
-            >
+            <a href="python.html" class="btn btn-outline-light btn-block">
               Python
               <span class="d-block mt-2 small"
                 >Develop versatile and efficient software</span
@@ -172,7 +146,7 @@
             <div class="card h-100">
               <div class="card-img-container">
                 <img
-                  src="assets/web1.jpeg"
+                  src="assets/images/web1.jpeg"
                   class="card-img-top"
                   alt="Web Development"
                 />
@@ -198,7 +172,7 @@
             <div class="card h-100">
               <div class="card-img-container">
                 <img
-                  src="assets/app1.jpg"
+                  src="assets/images/app1.jpg"
                   class="card-img-top"
                   alt="App Development"
                 />
@@ -223,7 +197,7 @@
             <div class="card h-100">
               <div class="card-img-container">
                 <img
-                  src="assets/ui_ux.jpeg"
+                  src="assets/images/ui_ux.jpeg"
                   class="card-img-top"
                   alt="UI UX Design"
                 />
@@ -258,7 +232,11 @@
           <!-- First testimonial item -->
           <div class="carousel-item active">
             <div class="testimonial-item">
-              <img src="assets/ceo1.jpeg" alt="CEO 1" class="testimonial-img" />
+              <img
+                src="assets/images/ceo1.jpeg"
+                alt="CEO 1"
+                class="testimonial-img"
+              />
               <p class="testimonial-text">
                 "The team provided excellent service and delivered a top-notch
                 product. Highly recommended!"
@@ -269,7 +247,11 @@
           <!-- Second testimonial item -->
           <div class="carousel-item">
             <div class="testimonial-item">
-              <img src="assets/ceo2.jpeg" alt="CEO 2" class="testimonial-img" />
+              <img
+                src="assets/images/ceo2.jpeg"
+                alt="CEO 2"
+                class="testimonial-img"
+              />
               <p class="testimonial-text">
                 "Outstanding experience from start to finish. They understood
                 our needs and executed perfectly."
@@ -305,7 +287,7 @@
               </ul>
             </div>
             <!-- Contact form -->
-            <form action="landing-page.html" method="get">
+            <form action="landing-page.html" method="get" target="_blank">
               <div class="mb-3">
                 <input
                   type="email"

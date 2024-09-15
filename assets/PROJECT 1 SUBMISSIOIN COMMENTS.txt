@@ -1,9 +1,0 @@
-It would either be a case of creating a new GitHub repository, then creating a Gitpod workspace from this new repository, then recreating the project in your Gitpod workspace and pushing it back to GitHub from there. I'd recommend committing and pushing often as you rebuild so that you have a good trail of commit messages for assessments.
-Or, as you say you've been working locally in VSCode so I presume you have everything saved there? You could create a blank repository on GitHub, then add this new GitHub repository as the remote for your local Project 1, then push only the Project 1 files to the new repository.
-
-SUBMITTING PROJECT 1 :::
-nd copying the url from the deployed site, once the project is deployed on GitHub Pages.
-From the Love Running example project:
-https://github.com/Code-Institute-Solutions/love-running-v3
-
-I would have a check through any emails they've sent to you, the individual colleges do usually provide guidelines on the steps they require for submission. If you haven't received anything, I would maybe email them to get clarification. Most students taking the course directly with Code Institute are able to just submit projects via the LMS through the provided forms, and as you say move on to the next step. But it's not always the case with students doing it through outside colleges, so I wouldn't be able to guide you on exactly what they're looking for for submission.

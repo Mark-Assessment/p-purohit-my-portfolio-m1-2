@@ -1,4 +1,5 @@
-# Full Stack Developer Portfolio Website:                             
+# Full Stack Developer Portfolio Website:  
+---                           
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Responsive%20p-1.png?raw=true)
 Website Link :
 [https://purohit1999.github.io/Porject_My-Portfolio/](https://purohit1999.github.io/Porject_My-Portfolio/)
@@ -120,8 +121,7 @@ Usage: For borders, dividers, and subtle lines, this color will maintain the min
 ## Typography
 The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
 
-## 📝 User Stories
-
+## User Stories  
 ### 1. As a potential client, I want to see testimonials for examples of past work.
 - **Description**: The "Testimonials" section is designed to prominently display client feedback and endorsements. This helps potential clients evaluate the developer's skills and reliability.  
 
@@ -129,6 +129,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Each testimonial includes a client name and their feedback.
   - The section is visually appealing with a clean design.
 - **Screenshot:**
+---
 ![Testimonials Section](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
 
 ### 2. As a visitor, I want to easily find contact information to get in touch with the developer.
@@ -138,6 +139,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Contact information is prominently displayed.
   - The form includes validation to ensure accurate submissions.
 - **Screenshot:**
+---
 ![Contact Form](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
 
 ### 3. As a user, I want a responsive and visually appealing website experience.
@@ -147,6 +149,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - All interactive elements remain accessible and functional.
   - Visual appeal is maintained across all devices.
 - **Screenshot:**
+---
 ![Responsive Design](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)
 
 ### 4. As a user, I want to be able to return to the home page after completing a form submission.
@@ -156,6 +159,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Users are redirected to the homepage.
   - The homepage displays a success message or confirmation of the submission.
 - **Screenshot:**
+---
 ![Confirmation Message](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/confirmation_message.png?raw=true)
 
 ### 5. As a user, I want the webpage to be responsive and accessible on any device.
@@ -165,18 +169,17 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Touch and interaction elements are usable on mobile devices.
   - The layout remains consistent and user-friendly.
 - **Screenshot:**
-![Responsive Layout](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/responsive_layout.png?raw=true)
-  
+---
+![Responsive Layout](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/responsive_layout.png?raw=true)  
 
 ## Imagery
-Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. 
-**Free images created from AI tool** : [Here link](https://www.bing.com/images/create/)
+Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [Here link](https://www.bing.com/images/create/)
 
 ## Wireframes
 Wireframes are included as part of the design documentation below :  
-**Tool used for initial Drawing** : [Here Link](https://app.diagrams.net/)  
+[Here Link](https://app.diagrams.net/)  
 
-**Tool used for Wireframe Design** : [Here Link](https://balsamiq.com/)
+[Here Link](https://balsamiq.com/)
 
 
 ## 2D Skeleton Models
@@ -197,8 +200,10 @@ Wireframes are included as part of the design documentation below :
 |-----------------------|
 |       Footer          |
 |-----------------------|
+---
 
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20UI-UX.png?raw=true)
+---
 
 
 
@@ -219,8 +224,10 @@ Wireframes are included as part of the design documentation below :
 |------------------------------------------------|
 |                    Footer                      |
 |------------------------------------------------|
+---
 
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Tablet%20View.png?raw=true)
+---
 
 ### Desktop View
 |----------------------------------------------------------------------------------|
@@ -238,8 +245,10 @@ Wireframes are included as part of the design documentation below :
 |----------------------------------------------------------------------------------|
 |                                    Footer                                        |
 |----------------------------------------------------------------------------------|
+---
 
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20View.png?raw=true)
+---
 
 ## Design Choices
 - Clean and modern design with intuitive navigation.
@@ -292,34 +301,52 @@ Wireframes are included as part of the design documentation below :
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
 ### W3C Markup Validator :
-Results : No Error
+Results : 
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/html_validation.png?raw=true)
+---
 
 
 ### W3C CSS Validator :    
-Results : No Error
+Results :
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/css_validation.png?raw=true)
+---
 
 ### Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitors Goals
-- **Introduction**: Provide a clear and concise introduction to the services offered.  
-- **Engagement**: Capture attention through visually appealing design and clear messaging.  
-- **Navigation**: Ensure easy navigation to explore services, about section, and contact information.  
-- **Call to Action**: Encourage the first-time visitor to reach out via the contact form or explore more services.  
+- **Introduction**: The homepage provides a clear and concise introduction, immediately highlighting my key services as a front-end and back-end developer, ensuring first-time visitors understand the scope of my offerings.
+- **Engagement**: The design is visually appealing, with a clean, professional layout and engaging visuals that capture the visitor's attention. Clear headings and a consistent color scheme guide the user's focus.
+- **Navigation**: The site’s navigation is simple and intuitive, allowing users to easily explore the services, about section, and contact information through a well-structured menu.
+- **Call to Action**: Multiple call-to-action buttons encourage visitors to get in touch via the contact form or learn more about my services, fostering engagement from the outset.
+
+### Screenshot:
+
+![First Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/first-user-story.png)
+---
 
 ### Returning Visitor Goals
-- **Re-engagement**: Provide quick access to detailed service pages such as Front End Development, Back End Development, etc.
-- **Updates**: Showcase any new services, projects, or testimonials to keep the content fresh and relevant.
-- **Conversion**: Encourage returning visitors to take the next step, such as contacting for a project consultation.
+- **Re-engagement**: Clear, accessible links to detailed service pages, such as Front-End and Back-End Development, allow returning visitors to quickly find the information they need.
+- **Updates**: Regularly updated projects and testimonials are prominently displayed, ensuring returning visitors can see new work and stay engaged with the latest content.
+- **Conversion**: The site encourages returning visitors to reach out for consultations or inquiries through the contact page and strategically placed call-to-action buttons throughout the site.  
+
+### Screenshot:
+
+![Second Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/screenshot.png)
+---
 
 ### Frequent User Goals
-- **Resource Access**: Offer frequent users direct access to specific service pages and detailed information they frequently seek.
-- **Trust Building**: Reinforce trust by consistently providing updated testimonials, new projects, and continued engagement through social media links.
-- **Community Engagement**: Encourage interaction through social media channels and frequent updates about services or blog posts (if applicable).
+- **Resource Access**: Frequent users have direct access to the most relevant pages through the easy-to-navigate menu, providing quick links to specific services they seek.
+- **Trust Building**: Testimonials and case studies are updated frequently, building trust and credibility with users who return to the site.
+- **Community Engagement**: Social media links are integrated to encourage ongoing interaction and keep users connected with the latest updates and content from my portfolio.  
+
+### Screenshot:
+
+![Third Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/screenshot.png)
+---
 
 ### Lighthouse
 Used Chrome Developer Tools Lighthouse to test site performance, best practices, and accessibility. 
+---
 
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Lighthouse_testing.png?raw=true)
 
@@ -328,7 +355,9 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 - **Navigation Links**: Ensured all links work correctly.
 - **Responsive Design**: Tested on various devices and screen sizes.
 - **Form Functionality**: Tested contact form submission.
-  
+- **Browsers Tested:** Chrome, Firefox, Safari, Edge
+- **Devices Tested:** Desktop, Tablet, Mobile  
+---
 ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/validation_form.png?raw=true)
 
 ### Solved Bugs  
@@ -337,31 +366,72 @@ I wanted to bring to your attention an ongoing issue related to my GitHub accoun
 During a recent tutoring session with Sara, we discussed this problem, and she suggested that I work from a new GitHub profile. Consequently, I transitioned my work from my previous profile (param155) to a new one (Purohit1999). Unfortunately, this means that the commits made under my old profile are not reflected on my new one. Additionally, I primarily use VS Code for my development work due to the slow performance of Gitpod, which significantly impacts my efficiency.  
 
 It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.   
-
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)  
-
+---
+![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)      
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.
-- **Footer Social Media Not Centered**: `justify-content: center;` applied.
-  
-  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)
+- **Footer Social Media Not Centered**: `justify-content: center;` applied.  
+---  
+  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)  
+
+  - **Bug:** Navigation bar not responsive on mobile view.
+  - **Solution:** Adjusted CSS media queries to ensure proper scaling.  
+
+- **Bug:** Contact form submission failed.
+  - **Solution:** Fixed JavaScript validation errors and server-side handling.  
+
 
 ### Unit Testing
-- **JavaScript Functions**: Ensured all custom scripts work as expected.
+- **JavaScript Functions**: Ensured all custom scripts work as expected.  
+- **Coverage:** Tested individual components and their functionality using Jest and other testing frameworks.
 
 ### Further Testing
 - **Usability Testing**: Conduct tests to ensure ease of navigation, especially for first-time visitors.
 - **Performance Testing**: Ensure the webpage loads quickly across all devices, particularly mobile.
 - **A/B Testing**: Experiment with different call-to-action placements, button colors, and hero section layouts to maximize engagement.
 - **Accessibility Testing**: Verify that the website meets accessibility standards (e.g., contrast ratios, alt texts, etc.).
+---
 
   ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20page%20Speed%20P-1.png?raw=true)
-  
-  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20Page%20Speed%20P-1.png?raw=true)
+  ---
+  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20Page%20Speed%20P-1.png?raw=true)  
+  ---
+
+
+
+### **Testing Matrix**
+
+| **Validations**  | **Results** |
+|------------------|-------------|
+| **HTML**         | Passed (No errors or warnings) |
+| **CSS**          | Passed (No errors found) |
+
+| **Responsiveness**                              | **Pixel 5** | **Galaxy S8+** | **iPhone 11** | **iPad Mini** | **iPad Air** | **Surface Pro** | **Desktop 1024px+** | **Desktop 1280px+** | **iMac 1900px+** |
+|-------------------------------------------------|-------------|----------------|---------------|---------------|--------------|-----------------|---------------------|---------------------|-------------------|
+| Responsive devices with width of 375px or more  | Good        | Good           | Good          | n/a           | Good         | n/a             | Good                | Good                | Good              |
+| Responsive devices with width of 768px or more  | n/a         | Good           | Good          | n/a           | Good         | Good            | Good                | Good                | Good              |
+| Responsive devices with width of 1024px or more | n/a         | Good           | Good          | n/a           | n/a          | Good            | Good                | Good                | Good              |
+| Internal Links Work                             | Good        | Good           | Good          | Good          | Good         | Good            | Good                | Good                | Good              |
+| External Links Open in New Tab                  | Good        | Good           | Good          | Good          | Good         | Good            | Good                | Good                | Good              |
+| Images not pixelated or stretched               | Good        | Good           | Good          | Good          | Good         | Good            | Good                | Good                | Good              |
+
+| **Browser Compatibility**   | **Chrome** | **Safari** | **Firefox** | **Edge** |
+|-----------------------------|------------|------------|-------------|----------|
+| Appearance                  | Good       | Good       | Good        | Good     |
+| Responsiveness              | Good       | Good       | Good        | Good     |
+
+### **Notes:**
+- Testing conducted across a variety of devices and browsers.
+- HTML and CSS validations passed successfully.
+- Responsiveness and appearance were consistently good across all tested devices and browsers.  
+This matrix illustrate the successful validation and responsiveness testing across multiple devices and browsers.  
+
+---
 
 ## File Overview
 
 ### index.html
-This file contains the structure and content of the webpage. Key sections include:
+This file contains the structure and content of the webpage. Key sections include:  
+- **Purpose:** Main HTML file containing the structure and content of the website.
 - **Head**: Contains metadata, links to Bootstrap for styling, and a FontAwesome kit for icons.
 - **Navbar**: A responsive navigation bar with links to key sections (Home, Services, Contact).
 - **Hero Section**: Introduces the Full Stack Developer and includes a call-to-action button.
@@ -371,15 +441,18 @@ This file contains the structure and content of the webpage. Key sections includ
 - **Testimonials**: A carousel of client testimonials to build trust with new and returning visitors.
 - **Contact Section**: Provides a contact form and details about how to get in touch, along with an About Us section.
 - **Footer**: Contains quick links, a brief about the developer, and social media icons for connection.
+---
 
 ### style.css
-This file provides the styling for the webpage. Key styles include:
+This file provides the styling for the webpage. Key styles include:  
+- **Purpose:** CSS file for styling the website, including layout, colors, and typography.
 - **Fonts**: The webpage uses the "Roboto" font family.
 - **Hero Section**: Custom styles for background image, text positioning, and the glowing button effect.
 - **Responsive Design**: Media queries ensure that the site looks good on different screen sizes.
 - **Banner Section**: Styles the service buttons and their hover effects.
 - **Card Components**: Ensures consistent card layout with hover effects for service offerings.
 - **Footer**: Styles for footer sections including social media icons and responsive adjustments.
+---
 
 ## Deployment
 
@@ -390,13 +463,16 @@ The project was deployed to GitHub Pages using the following steps:
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.  
+
+---
 
 ### Forking the GitHub Repository
 Forking the GitHub Repository allows you to make a copy of the original repository on your GitHub account. Steps to fork the repository:
 1. Log in to GitHub and locate the GitHub Repository.
 2. At the top of the Repository, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
+---
 
 ### Making a Local Clone
 1. Log in to GitHub and locate the GitHub Repository.
@@ -406,6 +482,7 @@ Forking the GitHub Repository allows you to make a copy of the original reposito
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
+---
 
 ## GitPod and GitHub Deployment Issues Resolved  
 Over the past three days, I have been diligently working on my first project, which is now complete and functioning perfectly in Visual Studio. However, when attempting to share my project with the online tutors for review, they are unable to access my GitHub profile. This issue is severely hampering my progress as I am unable to receive the necessary feedback and move forward to the JavaScript lessons.
@@ -420,36 +497,34 @@ The main issues I am encountering are as follows:
 
 Given that I have already invested a considerable amount of time and effort into resolving these issues without success, I kindly request your immediate assistance in addressing and resolving these problems. It is crucial for me to submit my project promptly and continue with the coursework as scheduled.
 
-Please let me know if you require any additional information or access details to diagnose and fix the issues. Your prompt attention to this matter would be greatly appreciated.
+Please let me know if you require any additional information or access details to diagnose and fix the issues. Your prompt attention to this matter would be greatly appreciated.  
 
+---
 
 ## Credit
-- The full-screen hero image code came from Bing free images creator using AI tool.
+- The full-screen hero image code came from a StackOverflow post.
 - **Bootstrap 4**: Used throughout the project to make the site responsive using the Bootstrap Grid System.
 - **MDN Web Docs**: For Pattern Validation code. Code was modified to fit a UK phone number layout.
-
+---
 ### Media
 - All Images were created by the developer using Bing's free AI tool.
 - Free Images source:
-  
   - [Bing Image](https://www.bing.com/images/create/coding/1-669fa5b21f484aef93025d5b052fbaf6?id=zKwrjxoByUGzIp7O4qqoSw%3d%3d&view=detailv2&idpp=genimg&thId=OIG4.ZHZnpIySJoQ.yBTGIOI4&FORM=GCRIDP&ajaxhist=0&ajaxserp=0)
-
+---
 ### Free Fonts source
-
 - [Roboto](https://fonts.google.com/specimen/Roboto)
-  
 - [Font Awesome](https://fontawesome.com/kits)
-
+---
 ### Code
 - **Bootstrap** components and **Font Awesome** icons.
-  
   - [Get Bootstrap](https://getbootstrap.com/)
-    
   - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
+---  
 
 ## Content
-All content was written by the developer. Psychological properties of colors text in the README.md was found on the Colour Affects website.
+All content was written by the developer. Psychological properties of colors text in the README.md was found on the Colour Affects website.  
 
+---
 
 ## Acknowledgements
 - My Mentor for continuous helpful feedback.

@@ -1,8 +1,8 @@
 # Full Stack Developer Portfolio Website:  
 ---                           
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Responsive%20p-1.png?raw=true)
-Website Link :
-[https://purohit1999.github.io/Porject_My-Portfolio/](https://purohit1999.github.io/Porject_My-Portfolio/)
+![](<assets/images/responsive p-1.png>) 
+ Website Link  :
+[Here](https://purohit1999.github.io/Porject_My-Portfolio/)
 
 Welcome to the Full Stack Developer Portfolio project! This repository contains the source code and documentation for a personal portfolio website showcasing the skills and services of a full stack developer. This README provides an overview of the project, including its features, technologies used, testing, deployment, and more.
 
@@ -130,7 +130,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - The section is visually appealing with a clean design.
 - **Screenshot:**
 ---
-![Testimonials Section](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story1.png?raw=true)
+![Testimonials Section](assets/images/user_story1.png)
 
 ### 2. As a visitor, I want to easily find contact information to get in touch with the developer.
 - **Description**: The "Contact Us" section includes a form, email address, and phone number. This ensures visitors can reach out easily.
@@ -140,8 +140,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - The form includes validation to ensure accurate submissions.
 - **Screenshot:**
 ---
-![Contact Form](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/contact_form.png?raw=true)
-
+![Contact Form](assets/images/contact_form.png)
 ### 3. As a user, I want a responsive and visually appealing website experience.
 - **Description**: The website is designed to be responsive, ensuring a smooth experience across all devices (mobile, tablet, and desktop).
 - **Acceptance Criteria**:
@@ -530,3 +529,6 @@ All content was written by the developer. Psychological properties of colors tex
 - My Mentor for continuous helpful feedback.
 - Tutor support at Code Institute for their support.
 - EKC college teacher Rachel Furlong's help and support.
+
+
+[def]: https://purohit1999.github.io/Porject_My-Portfolio/

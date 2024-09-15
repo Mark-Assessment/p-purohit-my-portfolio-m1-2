@@ -149,7 +149,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Visual appeal is maintained across all devices.
 - **Screenshot:**
 ---
-![Responsive Design](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/user_story2.png?raw=true)
+![Responsive Design](<assets/images/responsive p-1.png>)
 
 ### 4. As a user, I want to be able to return to the home page after completing a form submission.
 - **Description**: After submitting the contact form, users are redirected to the homepage, which confirms the successful submission.
@@ -159,7 +159,7 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - The homepage displays a success message or confirmation of the submission.
 - **Screenshot:**
 ---
-![Confirmation Message](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/confirmation_message.png?raw=true)
+![Confirmatioin Massage](assets/images/return-to-home-page.png)
 
 ### 5. As a user, I want the webpage to be responsive and accessible on any device.
 - **Description**: The website maintains functionality and readability across various devices, including mobile phones, tablets, and desktops.
@@ -168,9 +168,8 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
   - Touch and interaction elements are usable on mobile devices.
   - The layout remains consistent and user-friendly.
 - **Screenshot:**
----
-![Responsive Layout](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/responsive_layout.png?raw=true)  
-
+--- 
+![Resposive Layout](<assets/images/third-user-story .png>)
 ## Imagery
 Imagery is important. The large MS AI-created, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic. [Here link](https://www.bing.com/images/create/)
 
@@ -200,13 +199,8 @@ Wireframes are included as part of the design documentation below :
 |       Footer          |
 |-----------------------|
 ---
-
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20UI-UX.png?raw=true)
+![mobiel view](assets/images/mobile_ux_ui.png)
 ---
-
-
-
-
 ### Tablet View
 |------------------------------------------------|
 |                    Navbar                      |
@@ -224,10 +218,8 @@ Wireframes are included as part of the design documentation below :
 |                    Footer                      |
 |------------------------------------------------|
 ---
-
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Tablet%20View.png?raw=true)
----
-
+![teblet view](assets/images/tablet_view.png)
+---  
 ### Desktop View
 |----------------------------------------------------------------------------------|
 |                                    Navbar                                        |
@@ -245,8 +237,7 @@ Wireframes are included as part of the design documentation below :
 |                                    Footer                                        |
 |----------------------------------------------------------------------------------|
 ---
-
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20View.png?raw=true)
+![alt text](assets/images/desktop_view.png)
 ---
 
 ## Design Choices
@@ -301,13 +292,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### W3C Markup Validator :
 Results : 
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/html_validation.png?raw=true)
+![alt text](assets/images/html_validation.png)
 ---
-
-
 ### W3C CSS Validator :    
 Results :
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/css_validation.png?raw=true)
+![alt text](assets/images/css_validation.png)
 ---
 
 ### Testing User Stories from User Experience (UX) Section
@@ -318,9 +307,8 @@ Results :
 - **Navigation**: The site’s navigation is simple and intuitive, allowing users to easily explore the services, about section, and contact information through a well-structured menu.
 - **Call to Action**: Multiple call-to-action buttons encourage visitors to get in touch via the contact form or learn more about my services, fostering engagement from the outset.
 
-### Screenshot:
-
-![First Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/first-user-story.png)
+## Screenshot:
+![first time visiter](<assets/images/first-user-story .png>)
 ---
 
 ### Returning Visitor Goals
@@ -328,9 +316,8 @@ Results :
 - **Updates**: Regularly updated projects and testimonials are prominently displayed, ensuring returning visitors can see new work and stay engaged with the latest content.
 - **Conversion**: The site encourages returning visitors to reach out for consultations or inquiries through the contact page and strategically placed call-to-action buttons throughout the site.  
 
-### Screenshot:
-
-![Second Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/screenshot.png)
+## Screenshot:
+![second time visit](assets/images/contact_form1.png)
 ---
 
 ### Frequent User Goals
@@ -338,16 +325,14 @@ Results :
 - **Trust Building**: Testimonials and case studies are updated frequently, building trust and credibility with users who return to the site.
 - **Community Engagement**: Social media links are integrated to encourage ongoing interaction and keep users connected with the latest updates and content from my portfolio.  
 
-### Screenshot:
+## Screenshot:
+![third time visit](<assets/images/third-user-story .png>)
+--- 
 
-![Third Time Visitors Screenshot](https://purohit1999.github.io/Porject_My-Portfolio/assets/images/screenshot.png)
----
+### Lighthouse     
+-  Used Chrome Developer Tools Lighthouse to test site performance, best practices, and accessibility.  
 
-### Lighthouse
-Used Chrome Developer Tools Lighthouse to test site performance, best practices, and accessibility. 
----
-
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Lighthouse_testing.png?raw=true)
+![alt text](assets/images/lighthouse_testing.png)
 
 
 ### Manual Testing
@@ -357,20 +342,19 @@ Used Chrome Developer Tools Lighthouse to test site performance, best practices,
 - **Browsers Tested:** Chrome, Firefox, Safari, Edge
 - **Devices Tested:** Desktop, Tablet, Mobile  
 ---
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/validation_form.png?raw=true)
-
+![manual testing](assets/images/validation_form.png)  
 ### Solved Bugs  
-I wanted to bring to your attention an ongoing issue related to my GitHub account that is affecting the visibility of my P-1 project. Despite having made 20 commits (please find the enclosed screenshot), the page is still not accessible to tutors, mentors, or yourself. This is the same issue we encountered when I initially submitted the project.  
+- I wanted to bring to your attention an ongoing issue related to my GitHub account that is affecting the visibility of my P-1 project. Despite having made 20 commits (please find the enclosed screenshot), the page is still not accessible to tutors, mentors, or yourself. This is the same issue we encountered when I initially submitted the project.  
 
-During a recent tutoring session with Sara, we discussed this problem, and she suggested that I work from a new GitHub profile. Consequently, I transitioned my work from my previous profile (param155) to a new one (Purohit1999). Unfortunately, this means that the commits made under my old profile are not reflected on my new one. Additionally, I primarily use VS Code for my development work due to the slow performance of Gitpod, which significantly impacts my efficiency.  
+- During a recent tutoring session with Sara, we discussed this problem, and she suggested that I work from a new GitHub profile. Consequently, I transitioned my work from my previous profile (param155) to a new one (Purohit1999). Unfortunately, this means that the commits made under my old profile are not reflected on my new one. Additionally, I primarily use VS Code for my development work due to the slow performance of Gitpod, which significantly impacts my efficiency.  
 
-It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.   
----
-![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/P-1%2020COMMITS.png?raw=true)      
+- It appears that there might be a configuration issue with my student account on the Code Institute platform. My mentor also believes that this is the case, as the project remains inaccessible despite being public. I kindly request that you liaise with the appropriate team at Code Institute to resolve this matter, as I have invested a considerable amount of time in ensuring that my P-1 project is both attractive and responsive.   
+---  
+ ![alt text](<assets/images/gitHub problem.png>)      
 - **Custom Modal Opacity Issue**: Fixed by adjusting CSS properties.
 - **Footer Social Media Not Centered**: `justify-content: center;` applied.  
 ---  
-  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/bug4.png?raw=true)  
+  ![alt text](assets/images/bug4.png)  
 
   - **Bug:** Navigation bar not responsive on mobile view.
   - **Solution:** Adjusted CSS media queries to ensure proper scaling.  
@@ -389,10 +373,9 @@ It appears that there might be a configuration issue with my student account on 
 - **A/B Testing**: Experiment with different call-to-action placements, button colors, and hero section layouts to maximize engagement.
 - **Accessibility Testing**: Verify that the website meets accessibility standards (e.g., contrast ratios, alt texts, etc.).
 ---
-
-  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Desktop%20page%20Speed%20P-1.png?raw=true)
+   ![alt text](assets/images/bug.png)
   ---
-  ![Image Alt](https://github.com/Purohit1999/Porject_My-Portfolio/blob/main/assets/Mobile%20Page%20Speed%20P-1.png?raw=true)  
+  ![alt text](assets/images/bug1.png)  
   ---
 
 
